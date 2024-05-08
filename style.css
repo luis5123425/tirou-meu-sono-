@@ -1,0 +1,40 @@
+.menu-principal {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para os itens do menu horizontal */
+.menu-horizontal {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-horizontal li {
+    margin: 0 10px;
+}
+
+.menu-horizontal li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para a seção de conteúdo */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
